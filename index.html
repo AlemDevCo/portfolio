@@ -43,51 +43,8 @@
         padding-right: 0px;
        }
         
-       /* Style the button that is used to open and close the collapsible content */
-       .collapsible {
-        background-color: #eee;
-        color: #444;
-        cursor: pointer;
-        padding: 18px;
-        width: 100%;
-        border: none;
-        text-align: left;
-        outline: none;
-        font-size: 15px;
-       }
-
-      /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-      .active, .collapsible:hover {
-        background-color: #ccc;
-        }
-
-      /* Style the collapsible content. Note: hidden by default */
-      .content {
-        padding: 0 18px;
-        display: none;
-        overflow: hidden;
-        background-color: #f1f1f1;
-        padding: 0 18px;
-        max-height: 0;
-        transition: max-height 0.2s ease-out;
-      }
-      </style>
-      <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-
-        for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.maxHeight){
-              content.style.maxHeight = null;
-            } else {
-              content.style.maxHeight = content.scrollHeight + "px";
-            }
-          });
-        }
-      </script>
+       .separator {
+         border-radius: 50%;
     </head>
     <body>
       <div class="intro">
@@ -95,7 +52,7 @@
         <p class="Username">AlemDev</p>
         <p class="Paragraph">Hey! I'm AlemDev. I have many different passions that I love. I make music, 2D Art & GFX and I develop games. Anyway, I'm 15 years old, I'm professional and active, mostly on Discord. I'm able to do Part-Time jobs and commissions but not full time since I have school and life in the middle of that. Hope to work with you in the future, -Alem.</p>
       </div>
-      <hr>
+      <hr class="separator">
         <button type="button" class="collapsible">Open Collapsible</button>
         <div class="content">
           <p class="building-paragraph">I've been building since I've started Roblox about 5 years ago. It was my main thing until I got other skills with the years. Below will be some examples of stuff I can build. Note that I am not a modeler so I do not use Blender to make stuff.</p>
