@@ -1,4 +1,4 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Alem's Portfolio</title>
@@ -11,11 +11,11 @@ body{
   font-family: 'Roboto', sans-serif; 
 }
 .container{
-    display: flex; /* change this */
-    justify-content: center; /* add this */
-    align-items: center; /* add this */
-    color: white;
-    font-weight: lighter;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: lighter;
 }
 .Text{
   margin-top: 10%;
@@ -26,25 +26,16 @@ body{
   font-size: bold;
   text-align: center;
 }
-.typed-out{
+.Desc{
   margin-top: 2%;
-  overflow: hidden;
-  border-right: .15em solid orange;
-  white-space: nowrap;
-  animation: typing 2.5s steps(50, end) forwards;
   font-size: 1.6rem;
-  width: 0;
-  text-align: center; /* add this */
-}
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  text-align: center;
 }
   </style>
 <body>
 <h1 class="Text">Hey, I'm <span class="Name">AlemDev</span></h1>
 <div class="container">
-  <div class="typed-out"><span class="Desc">A Developer, a graphics designer and a music composor.</span></div>
+  <div class="Desc">A Developer, a graphics designer and a music composor.</div>
 </div>
 </body>
 </html>
