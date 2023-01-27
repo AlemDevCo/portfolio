@@ -1,4 +1,4 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Alem's Portfolio</title>
@@ -11,9 +11,9 @@ body{
   font-family: 'Roboto', sans-serif; 
 }
 .container{
-    display: flex; /* change this */
-    justify-content: center; /* add this */
-    align-items: center; /* add this */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     font-weight: lighter;
 }
@@ -32,13 +32,14 @@ body{
   border-right: .15em solid orange;
   white-space: nowrap;
   animation: typing 2.5s steps(50, end) forwards;
+  animation-fill-mode: forwards;
   font-size: 1.6rem;
   width: 0;
-  text-align: center; /* add this */
+  text-align: center;
 }
 @keyframes typing {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 100%; border-right: 0; }
 }
   </style>
 <body>
