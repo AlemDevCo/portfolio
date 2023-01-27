@@ -1,64 +1,84 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>Alem's Portfolio</title>
-  </head>
-  <style>
-  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300&display=swap');
-body{
-  background: #181818;
-  background-size: cover;
-  font-family: 'Roboto', sans-serif;
-}
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: lighter;
-}
-.Text{
-  margin-top: 10%;
-  color: white;
-  text-align: center;
-}
-.Name{
-  font-size: bold;
-  text-align: center;
-}
-.typed-out{
-  margin-top: 1%;
-  overflow: hidden;
-  border-right: .15em solid orange;
-  white-space: nowrap;
-  animation: typing 2.5s steps(50, end) forwards;
-  animation-fill-mode: forwards;
-  font-size: 1.6rem;
-  width: 0;
-  text-align: center;
-}
-.Separator1{
-  margin-top: 8%;
-  margin-botttom: 8%;
-}
-.SectionTitle{
-  margin-top: 8%;
-  font-weight: bold;
-  color: white;
-  margin-left: 8%;
-  font-size: 25px;
-}
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100%; border-right: 0; }
-}
-  </style>
-<body>
-<h1 class="Text">Hey, I'm <span class="Name">AlemDev</span></h1>
-<div class="container">
-  <div class="typed-out"><span class="Desc">A Developer, a graphics designer and a music composor.</span></div>
-</div>
-<hr class="Separator1">
-<p class="SectionTitle">About Me</p>
-</body>
+    <head>
+        <title>Alem's Portfolio</title>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300&display=swap");
+
+            body {
+                background: #181818;
+                background-size: cover;
+                font-family: "Roboto", sans-serif;
+            }
+
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-weight: lighter;
+            }
+
+            .Text {
+                margin-top: 10%;
+                color: white;
+                text-align: center;
+            }
+
+            .Name {
+                font-size: bold;
+                text-align: center;
+            }
+
+            .typed-out {
+                margin-top: 1%;
+                overflow: hidden;
+                border-right: 0.15em solid orange;
+                white-space: nowrap;
+                font-size: 1.6rem;
+                text-align: center;
+            }
+
+            .Separator1 {
+                margin-top: 8%;
+                margin-bottom: 8%;
+            }
+
+            .SectionTitle {
+                margin-top: 8%;
+                font-weight: bold;
+                color: white;
+                margin-left: 8%;
+                font-size: 25px;
+            }
+        </style>
+    </head>
+    <body>
+
+
+        <h1 class="Text">Hey, I'm <span class="Name">AlemDev</span></h1>
+        <div class="container">
+            <div class="typed-out">
+                <span id="desc">
+
+                </span>
+                <div id="desc-text" style="display: none">
+                    A Developer, a graphics designer, and a music composor.
+                </div>
+            </div>
+        </div>
+        <hr class="Separator1" />
+        <p class="SectionTitle">About Me</p>
+
+        <script>
+            function type(i, t, ie, oe) {
+                input = document.getElementById(ie).innerHTML;
+                document.getElementById(oe).innerHTML += input.charAt(i);
+                setTimeout(function () {
+                    i < input.length - 1 ? type(i + 1, t, ie, oe) : false;
+                }, t);
+            }
+
+            type(20, 35, "desc-text", "desc");
+        </script>
+    </body>
 </html>
