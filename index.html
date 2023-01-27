@@ -11,20 +11,19 @@ body{
   font-family: 'Roboto', sans-serif; 
 }
 .container{
-  display: inline-block;
-  float: center;
-  color: white;
-  font-weight: lighter;
+    display: flex; /* change this */
+    justify-content: center; /* add this */
+    align-items: center; /* add this */
+    color: white;
+    font-weight: lighter;
 }
 .Text{
   margin-top: 10%;
   color: white;
-  float: center;
   text-align: center;
 }
 .Name{
   font-size: bold;
-  float: center;
   text-align: center;
 }
 .typed-out{
@@ -35,8 +34,7 @@ body{
   animation: typing 2.5s steps(50, end) forwards;
   font-size: 1.6rem;
   width: 0;
-  float: center;
-  text-align: center;
+  text-align: center; /* add this */
 }
 @keyframes typing {
   from { width: 0 }
