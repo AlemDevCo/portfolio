@@ -1,13 +1,24 @@
 <html>
     <head>
         <title>Alem's Portfolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300&display=swap" rel="stylesheet">
         <style>
-            @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300&display=swap");
-
             body {
                 background: #282828;
                 background-size: cover;
                 font-family: "Roboto", sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            h1 {
+                text-align: center;
+                color: white;
+                margin-top: 10%;
+            }
+
+            h1 .Name {
+                font-size: bold;
             }
 
             .container {
@@ -16,17 +27,6 @@
                 align-items: center;
                 color: white;
                 font-weight: lighter;
-            }
-
-            .Text {
-                margin-top: 10%;
-                color: white;
-                text-align: center;
-            }
-
-            .Name {
-                font-size: bold;
-                text-align: center;
             }
 
             .typed-out {
@@ -41,17 +41,20 @@
             .Separator1 {
                 margin-top: 8%;
                 margin-bottom: 8%;
+                border: none;
+                border-top: 1px solid white;
+                width: 50%;
+                margin: 0 auto;
             }
 
             .SectionTitle {
                 margin-top: 8%;
                 font-weight: bold;
                 color: white;
-                margin: 0 auto;
-                font-size: 25px;
                 text-align: center;
                 margin-bottom: 2%;
             }
+
             .AboutParagraph {
                 color: white;
                 font-size: 18px;
@@ -63,25 +66,20 @@
         </style>
     </head>
     <body>
-
-
-        <h1 class="Text">Hey, I'm <span class="Name">AlemDev</span></h1>
+        <h1>Hey, I'm <span class="Name">AlemDev</span></h1>
         <div class="container">
             <div class="typed-out">
-                <span id="desc">
-
-                </span>
+                <span id="desc"></span>
                 <div id="desc-text" style="display: none">
-                    A Developer, a graphics designer, and a music composor.
+                    A Developer, a graphics designer, and a music composer.
                 </div>
             </div>
         </div>
         <hr class="Separator1" />
         <div class="AbtSection">
             <p class="SectionTitle">About Me</p>
-            <p class="AboutParagraph">Hey! I'm a 15 year old guy who's passion is Developing, graphic design and Music Composing. I've started all that about 5 years ago (yes, I was 10, lmao) and I always continue to learn new stuff everyday. Below you will see some of my work. This website itself is made by myself, hope you enjoy! Hope to work with you in the future.</p>
+            <p class="AboutParagraph">Hey! I'm a 15 year old guy who's passion is Developing, graphic design, and Music Composing. I've been doing all of this for about 5 years and I always continue to learn new things every day. Below you will see some of my work. This website is also made by myself, I hope you enjoy it! I hope to work with you in the future.</p>
         </div>
-        <hr>
         <script>
             function type(i, t, ie, oe) {
                 input = document.getElementById(ie).innerHTML;
