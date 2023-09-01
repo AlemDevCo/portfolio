@@ -47,7 +47,7 @@
         />
     </div>
     
-    <div class="my-16 flex flex-col justify-center items-center">
+    <div class="bg-[#202020] my-16 py-12 flex flex-col justify-center items-center">
         <h1 class="text-white font-['Roboto'] font-bold text-3xl mb-4">
             Video Editing
         </h1>
