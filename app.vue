@@ -38,7 +38,7 @@
         <h1 class="text-white font-['Roboto'] font-bold text-3xl mb-4">
             Design & Art
         </h1>
-        
+        <p class="text-white text-center max-w-sm md:max-w-3xl mt-4">Golden Bar GFX</p>
         <nuxt-img
             src="/untitled.png"
             height="400"
