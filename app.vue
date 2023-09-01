@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col justify-center items-center mt-32">
         <nuxt-img
-            src="/profilepicture.png"
+            src="/IMG_3056.png"
             height="250"
             width="250"
             alt="Alem's PFP"
@@ -11,13 +11,10 @@
             Content Creator and Developer
         </h2>
         <p class="text-white text-center max-w-sm md:max-w-3xl mt-4">
-            What's good!? I'm Alem, a 15 year old Content Creator and Developer
-            who is passionate for everything related to electronics from the
-            newest computers to old machines like the first Nintendo and such.
+            What's good!? I'm Alem, a 15-year-old Content Creator and Developer
+            who is passionate about design, development, and music.
             <br /><br class="md:hidden flex" />
-            I started doing YouTube, streaming and showing my face online a-bit
-            more. Today I'm here on this website to gather all my past work and
-            work I'm currently working on in this website. Enjoy!
+            I love to upload YouTube videos and to stream. This website serves as a billboard for my best creations and the ones I think are worth showing! Looking forward to speaking with you!
         </p>
     </div>
 
@@ -37,7 +34,19 @@
             Thanks for understanding! :D
         </p>
     </div>
-
+    <div class="my-16 flex flex-col justify-center items-center">
+        <h1 class="text-white font-['Roboto'] font-bold text-3xl mb-4">
+            Design & Art
+        </h1>
+        
+        <nuxt-img
+            src="/untitled.png"
+            height="400"
+            width="400"
+            alt="Gold Bar"
+        />
+    </div>
+    
     <div class="my-16 flex flex-col justify-center items-center">
         <h1 class="text-white font-['Roboto'] font-bold text-3xl mb-4">
             Video Editing
