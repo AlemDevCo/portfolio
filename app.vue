@@ -45,7 +45,7 @@
             width="400"
             alt="Gold Bar"
         />
-        <p class="text-white text-center max-w-sm md:max-w-3xl mt-4">Golden Bar GFX</p>
+        <p class="text-white text-center max-w-sm md:max-w-3xl mt-4">Golden Bar Icon GFX</p>
     </div>
     
     <div class="bg-[#202020] my-16 py-12 flex flex-col justify-center items-center">
