@@ -11,7 +11,7 @@
             Content Creator and Developer
         </h2>
         <p class="text-white text-center max-w-sm md:max-w-3xl mt-4">
-            What's good!? I'm Alem, a 15-year-old Content Creator and Developer
+            What's good!? I'm Alem, a 16-year-old Content Creator and Developer
             who is passionate about design, development, and music.
             <br /><br class="md:hidden flex" />
             I love to upload YouTube videos and to stream. This website serves as a billboard for my best creations and the ones I think are worth showing! Looking forward to speaking with you!
