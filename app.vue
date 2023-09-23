@@ -178,7 +178,7 @@
     <div
         class="text-white font-['Inter'] my-14 flex flex-col justify-center items-center"
     >
-        Crafted with ❤️ by qvgk & alem
+        Crafted with ❤️ by qvgk & Alem
     </div>
 </template>
 
