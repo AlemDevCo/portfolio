@@ -39,12 +39,8 @@
             Design & Art
         </h1>
 
-        <nuxt-img
-            src="/untitled.png"
-            height="400"
-            width="400"
-            alt="Gold Bar"
-        />
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+        <div class="elfsight-app-2e3d96e1-b963-43a1-93db-5ff89c9b3532"></div>
         <p class="text-white text-center max-w-sm md:max-w-3xl mt-4">Golden Bar Icon GFX</p>
     </div>
     
@@ -52,6 +48,14 @@
         <h1 class="text-white font-['Roboto'] font-bold text-3xl mb-4">
             Video Editing
         </h1>
+        
+        <iframe
+            class="youtube-video my-1"
+            src="https://www.youtube.com/embed/U_z9HFKHz2g?si=7_LaWSJ2oNpmPoo4"
+            title="I WAS DRINKING ON ROBLOX 17+ | ROBLOX ON TAP"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        ></iframe>
 
         <iframe
             class="youtube-video my-1"
@@ -175,7 +179,7 @@
     <div
         class="text-white font-['Inter'] my-14 flex flex-col justify-center items-center"
     >
-        Crafted with ❤️ by qvgk
+        Crafted with ❤️ by qvgk & alem
     </div>
 </template>
 
