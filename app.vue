@@ -41,7 +41,6 @@
 
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
         <div class="elfsight-app-2e3d96e1-b963-43a1-93db-5ff89c9b3532"></div>
-        <p class="text-white text-center max-w-sm md:max-w-3xl mt-4">Golden Bar Icon GFX</p>
     </div>
     
     <div class="bg-[#202020] my-16 py-12 flex flex-col justify-center items-center">
