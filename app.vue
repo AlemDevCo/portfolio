@@ -191,7 +191,7 @@
                 <span class="font-bold">Rating:</span> 8.5/10 (85%)
             </h2>
             <p class="text-white font-['Inter'] mt-2 max-w-sm md:max-w-3xl">
-                No comment.
+                N/A
             </p>
         </div>
     </div>
