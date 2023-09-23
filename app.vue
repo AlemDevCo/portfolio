@@ -81,7 +81,28 @@
         <h1 class="text-white font-['Roboto'] font-bold text-3xl">
             Reviews & Comments
         </h1>
-
+        
+         <div class="text-center my-6">
+            <div class="flex flex-row align-middle items-center justify-center">
+                <nuxt-img
+                    class="rounded-full"
+                    src="/981052b4091426b3995dcc84d95c2744.jfif"
+                    width="30"
+                    height="30"
+                    alt="FetchingFerret's PFP"
+                    loading="lazy"
+                />
+                <h1 class="text-white font-['Inter'] ml-1">
+                    <span class="font-bold">Video Editing & Thumbnail Making</span> - FetchingFerret
+                </h1>
+            </div>
+            <h2 class="text-white font-['Inter'] ml-1">
+                <span class="font-bold">Rating:</span> 10/10 (100%)
+            </h2>
+            <p class="text-white font-['Inter'] mt-2 max-w-sm md:max-w-3xl">
+                "W Editor and thumbnail maker, honestly a great guy to work with! I approve!"
+            </p>
+        </div>
         <div class="text-center my-6">
             <div class="flex flex-row align-middle items-center justify-center">
                 <nuxt-img
