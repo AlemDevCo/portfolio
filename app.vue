@@ -36,7 +36,7 @@
     </div>
     <div class="my-16 flex flex-col justify-center items-center">
         <h1 class="text-white font-['Roboto'] font-bold text-3xl mb-4">
-            Design & Art
+            Icons, GFX & 2D Art
         </h1>
 
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
